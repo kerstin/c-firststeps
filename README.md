@@ -1,4 +1,1 @@
-c-firststeps
-============
-
-First steps in C
+First steps in C...
