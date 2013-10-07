@@ -23,6 +23,5 @@ int main() {
 	printf("->\t\t\t\tuse \"\\n\"\n");
 
 	return 0;
-
 }
 
