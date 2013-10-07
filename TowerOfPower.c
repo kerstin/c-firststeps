@@ -10,7 +10,7 @@ int main() {
 
     int userinput = 0;
 
-    printf("Please enter a number between 1 and 10 to display a 'Tower of Power' built with the 7 lowest powers of it: ");
+    printf("Please enter a number between 1 and 10\nto build a 'Tower of Power' from its first seven powers: ");
     scanf("%d", &userinput);
 
     printf("\t%8d\n", userinput);
