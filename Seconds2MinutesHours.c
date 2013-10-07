@@ -6,10 +6,17 @@
 
 int main() {
 
-    int userinput = 0;
+    int seconds = 0;
+    int hours = 0;
+    int minutes = 0;
+    int leftoverseconds = 0;
 
     printf("Enter seconds to convert into minutes and hours: ");
-    scanf("%d", &userinput);
+    scanf("%d", &seconds);
+
+    minutes = seconds/60;
+
+    printf("%d seconds is %d hour(s), %d minute(s) and %d second(s).\n", seconds, hours, minutes, leftoverseconds);
 
     return 0;
 }
