@@ -1,4 +1,6 @@
-/*  Write a program that converts seconds to minutes and hours. The user enters the value in seconds, the program calculates the number of minutes and hours and outputs the result.
+/*  Write a program that converts seconds to minutes and hours.
+The user enters the value in seconds, the program calculates
+the number of minutes and hours and outputs the result.
 */
 
 #include <stdio.h>
@@ -16,7 +18,8 @@ int main() {
 
     minutes = seconds/60;
 
-    printf("%d seconds is %d hour(s), %d minute(s) and %d second(s).\n", seconds, hours, minutes, leftoverseconds);
+    printf("%d seconds is %d hour(s), %d minute(s) and %d second(s).\n",
+        seconds, hours, minutes, leftoverseconds);
 
     return 0;
 }
